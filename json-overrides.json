@@ -1,0 +1,39 @@
+{
+    "package.json": {
+        "name": "futurio",
+        "description": "Future Peerio",
+        "repository": {
+            "type": "git",
+            "url": "git+https://github.com/PeerioTechnologies/peerio-desktop-futurio.git"
+        },
+        "author": "Technologies Peerio Inc. <support@peerio.com>",
+        "build": {
+            "appId": "com.peerio.futurio",
+            "productName": "Future Peerio",
+            "win": {
+                "publisherName": "Peerio Technologies Inc."
+            }
+        }
+    },
+    "app/package.json": {
+        "name": "futurio",
+        "productName": "Future Peerio",
+        "description": "Future Peerio",
+        "repository": {
+            "type": "git",
+            "url": "git+https://github.com/PeerioTechnologies/peerio-desktop-futurio.git"
+        },
+        "author": "Technologies Peerio Inc. <support@peerio.com>",
+        "updater": {
+            "manifests": [
+                "github:PeerioTechnologies/peerio-desktop-futurio"
+            ]
+        },
+        "peerio": {
+            "appId": "com.peerio.futurio",
+            "keychainService": "PeerioMessengerFuturio",
+            "socketServerUrl": "wss://cws.peerio.com",
+            "usePeerioUpdater": true
+        }
+    }
+}
