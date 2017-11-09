@@ -32,7 +32,7 @@
         "peerio": {
             "appId": "com.peerio.futurio",
             "keychainService": "PeerioMessengerFuturio",
-            "socketServerUrl": "wss://cws.peerio.com",
+            "socketServerUrl": "wss://hocuspocus.peerio.com",
             "usePeerioUpdater": true
         }
     }
