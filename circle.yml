@@ -1,16 +1,12 @@
 machine:
   ruby:
-    version: 2.4.1
-  xcode:
-    version: 9.0.1
-  dependencies:
-    pre:
-      - brew update
-      - brew upgrade
-      - brew install node 8.6.0
-      - brew switch node 8.6.0
-  deployment:
-    futurio:
-      branch: master
-      commands:
-        - ./deploy.sh
+    version: 2.3.4
+dependencies:
+  pre:
+    - brew update
+    - brew upgrade
+    - brew install node 8.6.0
+    - brew switch node 8.6.0
+compile:
+  override:
+    - ./deploy.sh
