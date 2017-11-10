@@ -2,6 +2,8 @@ machine:
   xcode:
     version: 9.0.1
 dependencies:
+  pre:
+    - ./prepare.sh
   cache_directories:
     - "/usr/local/Cellar"
 compile:
