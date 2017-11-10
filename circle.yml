@@ -8,7 +8,7 @@ dependencies:
     - "/usr/local/Cellar"
 compile:
   override:
-    - ./deploy.sh
+    - ./scripts/deploy.sh
 test:
   override:
     - node -v
