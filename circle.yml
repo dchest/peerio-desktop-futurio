@@ -9,3 +9,6 @@ dependencies:
 compile:
   override:
     - ./deploy.sh
+test:
+  override:
+    - node -v
