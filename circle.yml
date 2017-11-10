@@ -1,6 +1,9 @@
 machine:
   xcode:
     version: 9.0.1
+dependencies:
+  cache_directories:
+    - "/usr/local/Cellar"
 compile:
   override:
     - ./deploy.sh
