@@ -1,14 +1,14 @@
 machine:
   ruby:
-    version: ruby-2.3.4
+    version: 2.3.4
   xcode:
     version: 9.0.1
 dependencies:
   pre:
+    - rvm install 2.3.4
     - brew update
     - brew upgrade
-    - brew install node 8.6.0
-    - brew switch node 8.6.0
+    - brew install node
 compile:
   override:
     - ./deploy.sh
